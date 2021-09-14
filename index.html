@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Organizer</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
+    <link rel="stylesheet" href="./assets/css/hover.css">
+    <!--Fonts-->
+    <link rel="stylesheet" href="https://use.typekit.net/brm0rlw.css">
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>
+                <a href="./index.html">Recipe Organizer</a>
+            </h1>
+
+            <a id="adicionarReceita">Adicionar Receita</a>
+            <ul class="contactMenu">
+                <li>
+                    <a href="./contato.html" id="contato">Contato</a>
+                </li>
+                <li>
+                    <a href="./sobre.html" id="sobre">Quem somos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="sectionForm">
+            <form action="#" method="post" id="formReceita">
+                <label for="titulo">Nome da receita</label>
+                <input type="text" name="titulo" id="titulo" class="titulo" placeholder="Digite o nome da receita">
+
+                <label for="urlImg">Link da imagem</label>
+                <input type="text" name="urlImg" id="urlImg" placeholder="Link da imagem">
+
+                <label for="ingredientes">Ingredientes</label>
+                <textarea name="ingredientes" id="ingredientes"
+                    placeholder="Digite aqui os ingredientes da sua receita"></textarea>
+
+                <label for="receita">Receita</label>
+                <textarea name="receita" id="receita" placeholder="Digite aqui a sua receita"></textarea>
+
+                <button type="submit" id="btnAdicionar">Adicionar</button>
+                <button type="reset" id="btnCancelar">Cancelar</button>
+            </form>
+        </section>
+        <section class="containerCard">
+            <article class="card">
+                <div class="divImg">
+                    <img src="./img/torta-de-limao.jpg" alt="Imagem de uma torta de limão">
+                </div>
+                <div class="informacoes">
+                    <h2 class="tituloCard">Torta de Limão</h2>
+                    <h3 class="tituloIngredientes">Ingredientes</h3>
+                    <article class="ingredientesCard">
+                        <p>
+                            200 g de biscoito de maisena;
+                            150 g de margarina;
+
+                            1 lata de leite condensado (395 g);
+                            1 caixa de creme de leite (200 g);
+                            Suco de 4 limões;
+                            Raspas de 2 limões;
+
+                            3 ou 4 claras de ovo;
+                            3 colheres (sopa) de açúcar;
+                            raspas de 2 limões para decorar;
+                        <p>
+                    </article>
+                    <h3>Modo de Preparo</h3>
+                    <article class="modoPreparo">
+                        <p>
+                            Triture o biscoito de maisena.
+
+                            Junte a margarina e bata mais um pouco.
+
+                            Despeje a massa em uma forma de fundo removível.
+
+                            Com as mãos, espalhe os biscoitos triturados no fundo e nas laterais da forma, cobrindo toda
+                            área.
+
+                            Leve ao forno médio, preaquecido, por aproximadamente 10 minutos.
+
+                            Bata todos os ingredientes no liquidificador (exceto as raspas de limão) até obter um creme
+                            liso e firme.
+
+                            Recheie a massa já assada e leve à geladeira por 30 minutos.
+
+                            Bata as claras em neve e acrescente o açúcar.
+
+                            Misture até obter um ponto de suspiro e leve ao forno até dourar.
+
+                            Desenforme a torta, despeje a cobertura e acrescente as raspas
+                            de limão.
+
+                        </p>
+                    </article>
+                </div>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        Projeto avaliativo 2021 © - Certified Tech Developer - Digital House
+    </footer>
+    <!-- script -->
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/contato.js"></script>
+</body>
+
+</html>

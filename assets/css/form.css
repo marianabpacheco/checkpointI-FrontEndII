@@ -1,0 +1,98 @@
+
+/*Estilização da seção que abriga o formulário de adicionar receita*/
+.sectionForm{
+    z-index:5;
+    border-radius: 0.2rem;
+    position:fixed;
+    background-color:rgba(207, 203, 203, 0.438);
+    width: 100%; 
+    height: 100%;
+    top:0;
+    left:0;
+    display: none;
+    transition: all .5s ease-in;
+
+}
+
+/*Estilização do formulário*/
+#formReceita{
+    background-color:#fffffe;
+    box-shadow: 0.2rem 0.2rem 0.6rem grey;
+    border-radius: 0.5rem;
+    padding:1.5rem;
+    text-align: left;
+    margin: 2rem;
+    max-width: 400px;
+    min-width: 200px;
+    min-height: 300px;
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
+}
+
+/*Estilização das etiquetas do formulário*/
+#formReceita label{
+    font-size: 1.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+}
+
+/*Estilização dos inputs do formulário*/
+#formReceita input{
+    outline:none;
+    border:none;
+    background:none;
+    background-color: #d8d8da;
+    padding:0.8rem;
+    color:#0d0d0d;
+    font-size:1rem;
+    border-radius:0.5rem;
+    margin:0.5rem 0;
+}
+
+/*Estilização das caixas de texto do formulário*/
+#formReceita textarea{
+    outline:none;
+    border:none;
+    background:none;
+    background-color: #d8d8da;
+    padding:1.5rem;
+    color:#0d0d0d;
+    font-size:1rem;
+    border-radius:0.5rem;
+    width: 100%;
+    resize: none;
+    overflow: hidden;
+    
+}
+
+/*Estilização dos botões*/
+#btnAdicionar,#btnCancelar{ 
+    background: none;
+    border:none;
+    cursor:pointer;
+    margin-right:1rem;
+    background-color: #ff8e3c;
+    padding:1rem;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    color:#fffffe;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+/*Estilização do texto inserido nos inputs*/
+#formReceita::placeholder{
+    color:#0d0d0d;
+   
+    
+}
+
+
+/*Configuração para estilizar o formulário*/
+input,label,textarea,::placeholder{
+    display: block;
+    width:100%;
+   
+}
+
+

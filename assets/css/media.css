@@ -1,0 +1,61 @@
+/* MEDIA QUERIES*/ 
+
+/* PRINCIPAL */ 
+
+@media(min-width:480px){
+    .card{
+        min-width:200px;
+        min-height: 200px;
+    }
+}
+
+
+@media (min-width:768px) {
+    .containerCard{
+        flex-direction: row;
+       
+    }
+
+    .card{
+        min-width: 300px;
+        
+    }
+
+}
+
+@media (min-width: 1024px){
+    .card{
+        min-width: 30%;
+        margin-left: 2rem;
+    }
+}
+
+/* FORM ADICIONAR RECEITA*/
+
+@media(min-width:480px){
+    #formReceita{
+        margin-left:1rem;
+    }
+}
+
+@media (min-width:768px){
+    #formReceita{
+        min-width: 350px;
+    }
+}
+
+@media (min-width: 1024px){
+    #formReceita{ 
+        min-width:425px;
+    }
+}
+
+/* SOBRE A EQUIPE*/
+
+
+@media (min-width:768px){
+    #sobreSection{
+        flex-direction: row;
+    }
+}
+

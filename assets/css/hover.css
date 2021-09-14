@@ -1,0 +1,17 @@
+/*estilização quando passa o mouse em cima*/
+
+h1:hover{ 
+    color:#ff8e3c;
+}
+
+
+#adicionarReceita:hover, #sobre:hover, #contato:hover,
+#btnAdicionar:hover, #btnCancelar:hover,
+#enviarContato:hover{
+   box-shadow: 0.2rem 0.2rem 0.4rem gray;
+}
+
+#formReceita input:hover, #formReceita textarea:hover,
+#contactForm input:hover,#contactForm textarea:hover{ 
+    border:#ff8e3c 2px solid;
+}
